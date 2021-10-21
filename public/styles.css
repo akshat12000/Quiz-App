@@ -1,0 +1,184 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Ubuntu";
+}
+
+.main-container {
+    background-color: mediumslateblue;
+    box-shadow: 1px 1px 10px #888;
+    color: azure;
+    padding: 1%;
+    width: 100%;
+}
+
+.my-footer {
+    color: #888;
+    padding: 1%;
+    text-align: center;
+    width: 100%;
+}
+
+.body-container {
+    display: flex;
+    text-align: center;
+}
+
+.quiz-container {
+    flex: 80%;
+}
+
+.option-list {
+    width: 90%;
+}
+
+.outer-display {
+    padding: 3%;
+}
+
+.quiz-display {
+    border: 2px dashed #888;
+    flex: 75%;
+    background-color: ghostwhite;
+    border-radius: 5px;
+    color: #333;
+    height: 76vh;
+    padding: 2%;
+    text-align: left;
+}
+
+.side-bar {
+    box-shadow: 1px -1px 10px #888;
+    background-color: mediumseagreen;
+    color: azure;
+    flex: 25%;
+    width: 25%;
+    text-align: center;
+    padding: 2%;
+}
+
+.side-bar ul {
+    list-style: none;
+}
+
+.btn-next,
+.btn-submit {
+    margin: 2% 0 0 2%;
+}
+
+.btn {
+    box-shadow: 1px 1px 5px #333;
+    border: 0;
+    border-radius: 10px;
+    color: azure;
+    width: 15%;
+    min-height: 7%;
+}
+
+.btn-next {
+    background-color: #f5b81d;
+    transition: all 0.3s;
+}
+
+.btn-prev {
+    background-color: tomato;
+    transition: all 0.3s;
+}
+
+.btn-submit {
+    background-color: springgreen;
+    transition: all 0.3s;
+}
+
+.btn-next:hover,
+.btn-prev:hover,
+.btn-submit:hover {
+    transform: scale(102%);
+}
+
+img {
+    margin: 2% 0 2% 30%;
+    width: 35%;
+}
+
+.ques-btn {
+    border-radius: 100%;
+    border: 0.1px solid #333;
+    width: 16%;
+    margin: 4% 2%;
+    padding: 5%;
+}
+
+.ques-btn:hover {
+    background-color: #333;
+    color: azure;
+}
+
+table {
+    border: 0.1px solid #333;
+    margin: auto;
+}
+
+th {
+    background-color: mediumslateblue;
+    color: azure;
+    text-align: center;
+    padding: 2%;
+}
+
+tbody {
+    text-align: center;
+}
+
+.resSec {
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: azure;
+}
+
+tr:nth-child(odd) {
+    background-color: antiquewhite;
+}
+
+.pallet-container {
+    text-align: justify;
+}
+
+.pallet-btn {
+    border-radius: 100%;
+    border: 0.1px solid #333;
+    width: 16%;
+    margin: 4% 2%;
+    padding: 5%;
+}
+
+.g-btn {
+    color: azure;
+    background-color: #3deb34;
+}
+
+.r-btn {
+    color: azure;
+    background-color: #e85048;
+}
+
+.A,
+.B,
+.C,
+.D {
+    margin: -1% auto;
+}
+
+.A:hover,
+.B:hover,
+.C:hover,
+.D:hover {
+    color: hotpink;
+}
+
+.StatusTab {
+    color: #333;
+}
